@@ -1,0 +1,29 @@
+galaxy_info:
+  author: knorrkator
+  description: Role for setting up Etcd
+  company: None
+  issue_tracker_url: https://github.com/knorrkator/ansible-etcd/issues
+  # Valid values:
+  # - BSD-3-Clause (default)
+  # - MIT
+  # - GPL-2.0-or-later
+  # - GPL-3.0-only
+  # - Apache-2.0
+  # - CC-BY-4.0
+  license: Apache-2.0
+  min_ansible_version: 2.1
+  platforms:
+  - name: EL
+    versions:
+    - 5
+    - 6
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  galaxy_tags:
+  - system
+  - etcd
+dependencies: []
